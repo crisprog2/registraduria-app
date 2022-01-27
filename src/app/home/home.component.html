@@ -1,0 +1,8 @@
+<div class="container py-4">
+  <div align="center">
+    <label class="col-sm-2 col-form-label">Cedula Votante</label> <input
+        type="number" name="cedula" class="form-control col-sm-2" [(ngModel)]="consulta.cedulaVotante" />
+    <br> <button class="btn btn-primary" type="button" name="button" [routerLink]="['/consulta/', consulta.cedulaVotante]">Consultar</button>
+  </div>
+</div>
+
